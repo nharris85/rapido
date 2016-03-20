@@ -3,6 +3,9 @@ Rápido
 Rápido is an extensible command line interface that enables rapid development for any technology stack. 
 Rápido is written in JavaScript and is built on top of [Node.js](http://nodejs.org/) and [npm](https://npmjs.org/). 
 
+# Fork Changes
+* Default stack can be disabled for custom CLI use cases. This is not the ideal solution for removing the default stack commands from use. Configuring the initialization phase is clunky and should be reworked to better enable this use case, but this solution is good enough for my needs.
+
 # Features
 * Custom commands and stacks
 * Scaffolding
